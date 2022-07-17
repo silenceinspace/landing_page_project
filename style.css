@@ -8,6 +8,8 @@ body {
     height: 100vh;
     margin: 0px;
     padding: 0px;
+    /* display: flex;
+    flex-flow: column wrap; */
 }
 
 .header {
@@ -83,4 +85,34 @@ a:hover {
 
 .text-hero {
     flex: 1;
+}
+
+/* starting the second part */
+
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.illustrations {
+    display: flex;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.icon {
+    height:200px;
+    width: 200px;
+    
+}
+
+.icon img{
+    border-radius: 6px;
 }
