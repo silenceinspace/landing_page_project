@@ -110,16 +110,42 @@ a:hover {
 .icon img {
     height: 150px;
     width: 150px;
-    border-radius: 6px;
+    border-radius: 12px;
+    border:#3882F6 solid 5px;
 }
 
 .icon p {
     text-align: center;
     margin: 0px;
+    color:#7c7171;
 }
 
 .icon {
     margin: 40px;
     width:150px;
     min-height:250px;
+}
+
+/* starting the third part */
+
+.quote {
+    height: 400px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 260px;
+}
+
+.quote .the-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote .thor {
+    font-weight: bold;
+    font-size: 20px;
+    align-self: flex-end;
 }
