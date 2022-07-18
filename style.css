@@ -149,3 +149,43 @@ a:hover {
     font-size: 20px;
     align-self: flex-end;
 }
+
+/* start the forth part */
+
+.action {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action .container {
+    display: flex;
+    height: 80px;
+    width: 700px;
+    padding: 10px 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .button {
+    border-radius: 12px;
+    border: white solid 2px;
+    margin: 0px;
+    font-weight: bold;
+}
+
+.text .bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text .second {
+    color: #E5E7EB
+}
+
+/* the footer, final part */
+
