@@ -5,12 +5,11 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px;
-    padding: 0px;
-    /* display: flex;
-    flex-flow: column wrap; */
-}
+    display: flex;
+    flex-direction: column;
+}  
 
 .header {
     background-color: #1F2937;
@@ -19,7 +18,7 @@ body {
 }
 
 img {
-    height: 200px;
+    max-height: 200px;
     width: auto;
     flex: 1;
 }
@@ -90,8 +89,8 @@ a:hover {
 /* starting the second part */
 
 .info {
-    display: flex;
     flex-direction: column;
+    display: flex;
     height: 400px;
     align-items: center;
     justify-content: center;
@@ -105,14 +104,22 @@ a:hover {
     font-size: 36px;
     font-weight: bold;
     color: #1F2937;
+    margin-top: 30px;
+}
+
+.icon img {
+    height: 150px;
+    width: 150px;
+    border-radius: 6px;
+}
+
+.icon p {
+    text-align: center;
+    margin: 0px;
 }
 
 .icon {
-    height:200px;
-    width: 200px;
-    
-}
-
-.icon img{
-    border-radius: 6px;
+    margin: 40px;
+    width:150px;
+    min-height:250px;
 }
