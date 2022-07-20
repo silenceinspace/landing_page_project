@@ -29,9 +29,9 @@ body {
     padding-top: 10px;
 }
 
-.logo {
-    color: #F9FAF8;
-    font-size: 24px;
+.logo img {
+    max-width: 50px;
+    max-height: 50px;
 }
 
 .links {
@@ -66,6 +66,7 @@ a:hover {
     font-size: 48px;
     font-weight:bold;
     color: #F9FAF8;
+    padding-bottom: 25px;
 }
 
 .header .secondary {
@@ -88,7 +89,7 @@ a:hover {
 }
 
 .header img {
-    max-height: 200px;
+    max-height: 300px;
     flex: 1;
 }
 
@@ -115,8 +116,8 @@ a:hover {
 }
 
 .icon img {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 12px;
     border:#3882F6 solid 5px;
 }
@@ -128,8 +129,8 @@ a:hover {
 }
 
 .icon {
-    width:150px;
-    min-height:250px;
+    width:200px;
+    min-height:300px;
 }
 
 /* edition quote section */
@@ -206,8 +207,10 @@ a:hover {
 }
 
 /* 1. give credit to the authors of photos
-4. edit code - optimize it
-5. make the webpage more personal, with some interesting info
+2. edit code - optimize it
+3. make the webpage more interesting info
+4. add certain links in the navbar
+5. create some animation for the czech logo
 */
 
 @media(max-width: 768px) {
