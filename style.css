@@ -8,9 +8,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    /* display: flex;
-    flex-direction: column;
-    min-height: 100vh; */
+    min-height: 100vh;
 }  
 
 .navbar,
@@ -28,6 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
 }
 
 .logo {
@@ -60,6 +59,7 @@ a:hover {
 
 .header .container {
     display: flex;
+    padding: 75px 0px;
 }
 
 .header .main {
@@ -82,8 +82,14 @@ a:hover {
     margin-top: 10px;
 }
 
+.header .text {
+    width: 50%;
+    padding-right: 30px;
+}
+
 .header img {
     max-height: 200px;
+    flex: 1;
 }
 
 /* edition section element */
@@ -197,28 +203,64 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0; */
 }
 
 /* 1. give credit to the authors of photos
 4. edit code - optimize it
 5. make the webpage more personal, with some interesting info
-6. Float right for text while resizing the icons*/
+*/
 
-/* @media(max-width: 600px) {
-    .header .bottom {
-        display: block;
-        text-align: center;
-        padding: 20px 10px;
-    }
-
-    .info .illustrations {
+@media(max-width: 768px) {
+    .boxes .illustrations,
+    .header .container {
         display: flex;
         flex-direction: column;
-    
+        align-items: center;
     }
 
-} */
+    .boxes .illustrations {
+        gap: 0px;
+    }
+
+    .header .container {
+        gap: 50px;
+    }
+
+    .header .text {
+        min-width: 300px;
+        text-align: center;
+    }
+
+    .navbar .logo {
+        align-self: flex-start;
+    }
+    
+    .navbar .links {
+        display: block;
+    }
+
+    .links li {
+        padding: 0px 10px;
+    }
+
+    .quote .container {
+        padding: 0px 50px;
+    }
+
+    .quote .signature {
+        margin-top: 15px;
+    }
+
+    .blue-window .container {
+        margin: 0px 20px;
+    }
+
+    .boxes .icon {
+        margin-bottom: -10px;
+    }
+
+    .boxes p {
+        margin-top: 5px;
+    }
+
+}
