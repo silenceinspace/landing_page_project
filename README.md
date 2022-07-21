@@ -1,7 +1,7 @@
 # landing_page_project
 This is my first ever webpage styled with css. By completing this assignment, I am logically finishing the css and html sections of The Odin Project's foundations. That is represented as 61% of the whole course, which took me around 35 days (3h per day). I am more than satisfied with my results, because I've already learned so much. 
 
-What have I learned particularly in this project:
+What I have learned particularly in this project:
 
 1. HTML:
 
