@@ -34,6 +34,11 @@ body {
     max-height: 50px;
 }
 
+.logo img:hover {
+    transition: 3s;
+    transform: rotate(360deg);
+}
+
 .links {
     display: flex;
     gap: 20px;
@@ -207,11 +212,7 @@ a:hover {
     justify-content: center;
 }
 
-/* 1. give credit to the authors of photos
-2. edit code - optimize it
-3. make the webpage more interesting info
-4. add certain links in the navbar
-5. create some animation for the czech logo
+/*5. create some animation for the czech logo
 */
 
 @media(max-width: 768px) {
@@ -257,6 +258,7 @@ a:hover {
 
     .blue-window .container {
         margin: 0px 20px;
+        padding: 8px;
     }
 
     .boxes .icon {
