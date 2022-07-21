@@ -60,6 +60,7 @@ a:hover {
 .header .container {
     display: flex;
     padding: 75px 0px;
+    gap: 40px;
 }
 
 .header .main {
@@ -85,7 +86,6 @@ a:hover {
 
 .header .text {
     width: 50%;
-    padding-right: 30px;
 }
 
 .header img {
@@ -131,6 +131,7 @@ a:hover {
 .icon {
     width:200px;
     min-height:300px;
+    margin-bottom: 20px;
 }
 
 /* edition quote section */
@@ -221,8 +222,8 @@ a:hover {
         align-items: center;
     }
 
-    .boxes .illustrations {
-        gap: 0px;
+    .boxes .container {
+        margin-bottom: 30px;
     }
 
     .header .container {
