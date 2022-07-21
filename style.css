@@ -212,9 +212,6 @@ a:hover {
     justify-content: center;
 }
 
-/*5. create some animation for the czech logo
-*/
-
 @media(max-width: 768px) {
     .boxes .illustrations,
     .header .container {
