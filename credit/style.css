@@ -47,9 +47,11 @@ li {
 
 .hint {
     border: red solid 5px;
+    border-radius: 1rem;
     padding: 10px 20px;
     background-color: gray;
-    color: red;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 4px hsl(50, 100%, 50%);
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
